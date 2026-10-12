@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b3d2e">
+  <meta name="description" content="Contatta Studio Forma per un progetto di ingegneria o consulenza.">
+  <title>Contatti — Studio Forma</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="topbar">INGEGNERIA · PROGETTAZIONE · CONSULENZA <span>ITALIA · STUDIO FORMA</span></div>
+  <header class="header">
+    <a class="logo" href="index.html"><span>F.</span> STUDIO<br>&nbsp;&nbsp;FORMA</a>
+    <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false">☰</button>
+    <nav class="nav"><a href="index.html">Home</a><a href="lavori.html">Progetti</a><a href="servizi.html">Servizi</a><a class="nav-cta active" href="contatti.html">Parliamone ↗</a></nav>
+  </header>
+
+  <main>
+    <section class="contact-hero wrap">
+      <p class="eyebrow">01 / CONTATTI · NUOVE IDEE</p>
+      <h1>Ogni progetto<br>inizia con un <em>ciao.</em></h1>
+      <p class="lead">Hai una domanda, un’idea o una sfida da affrontare? Raccontacela. Il primo passo è una conversazione.</p>
+    </section>
+
+    <section class="contact-content wrap">
+      <div class="contact-info">
+        <p class="eyebrow">02 / PARLIAMONE</p>
+        <h2>Mettiamoci<br><em>in contatto.</em></h2>
+        <p class="muted">Per informazioni, collaborazioni o una prima valutazione, scrivici una breve descrizione del progetto.</p>
+        <a class="contact-email" href="mailto:ciao@tuodominio.it">ciao@tuodominio.it ↗</a>
+        <div class="contact-note"><b>SF / 01</b><span>Ogni buona soluzione<br>comincia dall’ascolto.</span></div>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <label for="name">Come ti chiami?</label>
+        <input id="name" name="name" autocomplete="name" placeholder="Nome e cognome" required>
+
+        <label for="email">La tua email</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="nome@email.it" required>
+
+        <label for="subject">Di cosa vorresti parlare?</label>
+        <select id="subject" name="subject" required>
+          <option value="" disabled selected>Seleziona un argomento</option>
+          <option>Progettazione</option>
+          <option>Consulenza tecnica</option>
+          <option>Riqualificazione</option>
+          <option>Collaborazione</option>
+          <option>Altro</option>
+        </select>
+
+        <label for="message">Raccontaci qualcosa in più</label>
+        <textarea id="message" name="message" rows="5" placeholder="Obiettivi, contesto, tempistiche…" required></textarea>
+
+        <label class="privacy-check"><input type="checkbox" required><span>Confermo di aver letto l’informativa sulla privacy.</span></label>
+        <button class="btn btn-dark" type="submit">Prepara la tua email ↗</button>
+        <p class="form-note">Il modulo apre il programma di posta. Nessun dato viene inviato o salvato da questo sito.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-main"><a class="logo logo-light" href="index.html"><span>F.</span> STUDIO<br>&nbsp;&nbsp;FORMA</a><p>Progettazione rigorosa.<br>Visione aperta.</p><div class="footer-links"><a href="lavori.html">Progetti</a><a href="servizi.html">Servizi</a><a href="contatti.html">Contatti</a></div><a href="mailto:ciao@tuodominio.it">ciao@tuodominio.it ↗</a></div><div class="wrap footer-bottom"><span>© <span data-year></span> Studio Forma</span><span>INGEGNERIA CON VISIONE.</span></div></footer>
+</body>
+</html>
